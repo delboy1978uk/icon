@@ -1,0 +1,12 @@
+{
+    "name": "delboy1978uk/icon",
+    "description": "PHP Class for generating Font Awesome icons.",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Derek McLean",
+            "email": "delboy1978uk@gmail.com"
+        }
+    ],
+    "require": {}
+}
