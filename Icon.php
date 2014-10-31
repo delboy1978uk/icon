@@ -79,4 +79,9 @@ class Icon
         $icon = str_replace('">', ' '.$extra_classes.'">', $icon);
         return ($with_space) ? $icon.'&nbsp;' : $icon;
     }
+
+    public static function fontAwesomeHeadCssLink()
+    {
+        return '<link type="text/css" rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">';
+    }
 }
