@@ -23,10 +23,10 @@ Simplest use
 
 Adding extra classes
 ```
-<?= Icon::custom(Del\Icon::UNIVERSITY,'fa-5x'); ?>
+<?= Icon::custom(Icon::UNIVERSITY,'fa-5x'); ?>
 ```
 
 Adding extra classes, and a space(&nbsp;) following it
 ```
-<?= Icon::custom(Del\Icon::UNIVERSITY,'fa-5x',true); ?>
+<?= Icon::custom(Icon::UNIVERSITY,'fa-5x',true); ?>
 ```
