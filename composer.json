@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Icon": "src/"
+            "Del": "src/"
         }
     },
     "require": {}
