@@ -8,5 +8,10 @@
             "email": "delboy1978uk@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Icon": "src/"
+        }
+    },
     "require": {}
 }
