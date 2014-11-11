@@ -9,15 +9,18 @@ class Icon
     const ASTERISK = '<i class="fa fa-asterisk"></i>';
     const BACK = '<i class="fa fa-caret-left"></i>';
     const BAN = '<i class="fa fa-ban"></i>';
+    const BARS = '<i class="fa fa-bars"></i>';
     const BOLT = '<i class="fa fa-bolt"></i>';
     const BUILDING = '<i class="fa fa-building"></i>';
     const BOMB = '<i class="fa fa-bomb"></i>';
     const CAR = '<i class="fa fa-car"></i>';
     const CHECK = '<i class="fa fa-check"></i>';
     const CHECK_CIRCLE = '<i class="fa fa-check-circle"></i>';
+    const CHECK_SQUARE = '<i class="fa fa-check-square"></i>';
     const CIRCLE = '<i class="fa fa-circle-o"></i>';
     const CLOCK = '<i class="fa fa-clock-o"></i>';
     const CLOUD_DOWNLOAD = '<i class="fa fa-cloud-download"></i>';
+    const CLOUD_UPLOAD = '<i class="fa fa-cloud-upload"></i>';
     const COMMENT = '<i class="fa fa-comment"></i>';
     const COMMENT_O = '<i class="fa fa-comment-o"></i>';
     const COMMENTS = '<i class="fa fa-comments"></i>';
@@ -35,6 +38,7 @@ class Icon
     const ENVELOPE = '<i class="fa fa-envelope"></i>';
     const EXCLAMATION_CIRCLE = '<i class="fa fa-exclamation-circle"></i>';
     const FILE = '<i class="fa fa-file-text-o"></i>';
+    const FIRE = '<i class="fa fa-fire"></i>';
     const FLOPPY = '<i class="fa fa-floppy-o"></i>';
     const FORWARD = '<i class="fa fa-caret-right"></i>';
     const GBP = '<i class="fa fa-gbp"></i>';
@@ -45,6 +49,7 @@ class Icon
     const LINE_CHART = '<i class="fa fa-line-chart"></i>';
     const MEH = '<i class="fa fa-meh-o"></i>';
     const MONEY = '<i class="fa fa-money"></i>';
+    const NAVICON = '<i class="fa fa-bars"></i>';
     const NEWSPAPER = '<i class="fa fa-newspaper-o"></i>';
     const PENCIL = '<i class="fa fa-pencil"></i>';
     const PHONE = '<i class="fa fa-phone"></i>';
@@ -52,8 +57,11 @@ class Icon
     const PLAY = '<i class="fa fa-play"></i>';
     const PLUG = '<i class="fa fa-plug"></i>';
     const PLUS = '<i class="fa fa-plus"></i>';
+    const PLUS_SQUARE = '<i class="fa fa-plus-square"></i>';
     const POWER_OFF = '<i class="fa fa-power-off"></i>';
+    const PRINTER = '<i class="fa fa-print"></i>';
     const QUESTION = '<i class="fa fa-question"></i>';
+    const QUESTION_CIRCLE = '<i class="fa fa-question-circle"></i>';
     const REFRESH = '<i class="fa fa-refresh"></i>';
     const SEND = '<i class="fa fa-send"></i>';
     const SHARE_ALT = '<i class="fa fa-share-alt"></i>';
