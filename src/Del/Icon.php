@@ -42,11 +42,13 @@ class Icon
     const FLOPPY = '<i class="fa fa-floppy-o"></i>';
     const FORWARD = '<i class="fa fa-caret-right"></i>';
     const GBP = '<i class="fa fa-gbp"></i>';
+    const GLOBE = '<i class="fa fa-globe"></i>';
     const HOME = '<i class="fa fa-home"></i>';
     const INFO = '<i class="fa fa-info"></i>';
     const INFO_CIRCLE = '<i class="fa fa-info-circle"></i>';
     const LIGHTBULB = '<i class="fa fa-lightbulb-o"></i>';
     const LINE_CHART = '<i class="fa fa-line-chart"></i>';
+    const MAP_MARKER = '<i class="fa fa-map-marker"></i>';
     const MEH = '<i class="fa fa-meh-o"></i>';
     const MONEY = '<i class="fa fa-money"></i>';
     const NAVICON = '<i class="fa fa-bars"></i>';
