@@ -14,6 +14,10 @@ class Icon
     const BUILDING = '<i class="fa fa-building"></i>';
     const BOMB = '<i class="fa fa-bomb"></i>';
     const CAR = '<i class="fa fa-car"></i>';
+    const CARET_DOWN = '<i class="fa fa-caret-down"></i>';
+    const CARET_LEFT = '<i class="fa fa-caret-left"></i>';
+    const CARET_RIGHT = '<i class="fa fa-caret-right"></i>';
+    const CARET_UP = '<i class="fa fa-caret-up"></i>';
     const CHECK = '<i class="fa fa-check"></i>';
     const CHECK_CIRCLE = '<i class="fa fa-check-circle"></i>';
     const CHECK_SQUARE = '<i class="fa fa-check-square"></i>';
@@ -36,18 +40,24 @@ class Icon
     const DOWN = '<i class="fa fa-caret-down"></i>';
     const EDIT = '<i class="fa fa-edit"></i>';
     const ENVELOPE = '<i class="fa fa-envelope"></i>';
+    const ENVELOPE_O = '<i class="fa fa-envelope-o"></i>';
     const EXCLAMATION_CIRCLE = '<i class="fa fa-exclamation-circle"></i>';
+    const EXPAND = '<i class="fa fa-expand"></i>';
+    const FACEBOOK = '<i class="fa fa-facebook"></i>';
     const FILE = '<i class="fa fa-file-text-o"></i>';
     const FIRE = '<i class="fa fa-fire"></i>';
+    const FLAG_CHECKERED = '<i class="fa fa-flag-checkered"></i>';
     const FLOPPY = '<i class="fa fa-floppy-o"></i>';
     const FORWARD = '<i class="fa fa-caret-right"></i>';
     const GBP = '<i class="fa fa-gbp"></i>';
     const GLOBE = '<i class="fa fa-globe"></i>';
+    const GOOGLE_PLUS = '<i class="fa fa-google_plus"></i>';
     const HOME = '<i class="fa fa-home"></i>';
     const INFO = '<i class="fa fa-info"></i>';
     const INFO_CIRCLE = '<i class="fa fa-info-circle"></i>';
     const LIGHTBULB = '<i class="fa fa-lightbulb-o"></i>';
     const LINE_CHART = '<i class="fa fa-line-chart"></i>';
+    const LINKEDIN = '<i class="fa fa-linkedin"></i>';
     const MAP_MARKER = '<i class="fa fa-map-marker"></i>';
     const MEH = '<i class="fa fa-meh-o"></i>';
     const MONEY = '<i class="fa fa-money"></i>';
@@ -65,6 +75,7 @@ class Icon
     const QUESTION = '<i class="fa fa-question"></i>';
     const QUESTION_CIRCLE = '<i class="fa fa-question-circle"></i>';
     const REFRESH = '<i class="fa fa-refresh"></i>';
+    const RSS = '<i class="fa fa-rss"></i>';
     const SEND = '<i class="fa fa-send"></i>';
     const SHARE_ALT = '<i class="fa fa-share-alt"></i>';
     const SIGN_IN = '<i class="fa fa-sign-in"></i>';
@@ -75,6 +86,7 @@ class Icon
     const THUMBS_UP = '<i class="fa fa-thumbs-up"></i>';
     const THUMBS_O_DOWN = '<i class="fa fa-thumbs-o-down"></i>';
     const THUMBS_O_UP = '<i class="fa fa-thumbs-o-up"></i>';
+    const TWITTER = '<i class="fa fa-twitter"></i>';
     const UNIVERSITY = '<i class="fa fa-university"></i>';
     const UP = '<i class="fa fa-caret-up"></i>';
     const USER = '<i class="fa fa-user"></i>';
@@ -83,7 +95,8 @@ class Icon
     const WARNING = '<i class="fa fa-warning"></i>';
     const WHEELCHAIR = '<i class="fa fa-wheelchair"></i>';
     const WRENCH = '<i class="fa fa-wrench"></i>';
-    
+    const YOUTUBE = '<i class="fa fa-youtube"></i>';
+     
     public static function custom($icon, $extra_classes, $with_space = false)
     {
         $icon = str_replace('">', ' '.$extra_classes.'">', $icon);
