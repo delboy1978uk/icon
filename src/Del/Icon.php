@@ -5,6 +5,10 @@ namespace Del;
 class Icon
 {
     const ADD = '<i class="fa fa-plus"></i>';
+    const ANGLE_DOWN = '<i class="fa fa-angle-down"></i>';
+    const ANGLE_LEFT = '<i class="fa fa-angle-left"></i>';
+    const ANGLE_RIGHT = '<i class="fa fa-angle-right"></i>';
+    const ANGLE_UP = '<i class="fa fa-angle-up"></i>';
     const ARROWS_V = '<i class="fa fa-arrows-v"></i>';
     const ASTERISK = '<i class="fa fa-asterisk"></i>';
     const BACK = '<i class="fa fa-caret-left"></i>';
