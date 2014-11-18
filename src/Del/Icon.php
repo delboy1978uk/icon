@@ -17,6 +17,7 @@ class Icon
     const BOLT = '<i class="fa fa-bolt"></i>';
     const BUILDING = '<i class="fa fa-building"></i>';
     const BOMB = '<i class="fa fa-bomb"></i>';
+    const BUG = '<i class="fa fa-bug"></i>';
     const CAR = '<i class="fa fa-car"></i>';
     const CARET_DOWN = '<i class="fa fa-caret-down"></i>';
     const CARET_LEFT = '<i class="fa fa-caret-left"></i>';
