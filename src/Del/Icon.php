@@ -22,6 +22,7 @@ class Icon
     const CARET_LEFT = '<i class="fa fa-caret-left"></i>';
     const CARET_RIGHT = '<i class="fa fa-caret-right"></i>';
     const CARET_UP = '<i class="fa fa-caret-up"></i>';
+    const CERTIFICATE = '<i class="fa fa-certificate"></i>';
     const CHECK = '<i class="fa fa-check"></i>';
     const CHECK_CIRCLE = '<i class="fa fa-check-circle"></i>';
     const CHECK_SQUARE = '<i class="fa fa-check-square"></i>';
