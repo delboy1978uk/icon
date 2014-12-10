@@ -5,6 +5,7 @@ namespace Del;
 class Icon
 {
     const ADD = '<i class="fa fa-plus"></i>';
+    const ANGELLIST = '<i class="fa fa-angellist"></i>';
     const ANGLE_DOWN = '<i class="fa fa-angle-down"></i>';
     const ANGLE_LEFT = '<i class="fa fa-angle-left"></i>';
     const ANGLE_RIGHT = '<i class="fa fa-angle-right"></i>';
@@ -102,6 +103,7 @@ class Icon
     const VISA = '<i class="fa fa-cc-visa"></i>';
     const WARNING = '<i class="fa fa-warning"></i>';
     const WHEELCHAIR = '<i class="fa fa-wheelchair"></i>';
+    const WIFI = '<i class="fa fa-wifi"></i>';
     const WRENCH = '<i class="fa fa-wrench"></i>';
     const YOUTUBE = '<i class="fa fa-youtube"></i>';
      
