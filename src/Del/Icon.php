@@ -17,7 +17,6 @@ class Icon
     const BOLT = '<i class="fa fa-bolt"></i>';
     const BUILDING = '<i class="fa fa-building"></i>';
     const BOMB = '<i class="fa fa-bomb"></i>';
-    const BUG = '<i class="fa fa-bug"></i>';
     const CAR = '<i class="fa fa-car"></i>';
     const CARET_DOWN = '<i class="fa fa-caret-down"></i>';
     const CARET_LEFT = '<i class="fa fa-caret-left"></i>';
@@ -44,7 +43,9 @@ class Icon
     const DELETE = '<i class="fa fa-times"></i>';
     const DOT_CIRCLE = '<i class="fa fa-dot-circle-o"></i>';
     const DOWN = '<i class="fa fa-caret-down"></i>';
+    const DROPBOX = '<i class="fa fa-dropbox"></i>';
     const EDIT = '<i class="fa fa-edit"></i>';
+    const EMPIRE = '<i class="fa fa-empire"></i>';
     const ENVELOPE = '<i class="fa fa-envelope"></i>';
     const ENVELOPE_O = '<i class="fa fa-envelope-o"></i>';
     const EXCLAMATION_CIRCLE = '<i class="fa fa-exclamation-circle"></i>';
@@ -80,6 +81,7 @@ class Icon
     const PRINTER = '<i class="fa fa-print"></i>';
     const QUESTION = '<i class="fa fa-question"></i>';
     const QUESTION_CIRCLE = '<i class="fa fa-question-circle"></i>';
+    const REBEL = '<i class="fa fa-rebel"></i>';
     const REFRESH = '<i class="fa fa-refresh"></i>';
     const RSS = '<i class="fa fa-rss"></i>';
     const SEND = '<i class="fa fa-send"></i>';
