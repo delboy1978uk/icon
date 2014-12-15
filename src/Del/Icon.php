@@ -59,7 +59,7 @@ class Icon
     const FORWARD = '<i class="fa fa-caret-right"></i>';
     const GBP = '<i class="fa fa-gbp"></i>';
     const GLOBE = '<i class="fa fa-globe"></i>';
-    const GOOGLE_PLUS = '<i class="fa fa-google_plus"></i>';
+    const GOOGLE_PLUS = '<i class="fa fa-google-plus"></i>';
     const HOME = '<i class="fa fa-home"></i>';
     const INFO = '<i class="fa fa-info"></i>';
     const INFO_CIRCLE = '<i class="fa fa-info-circle"></i>';
