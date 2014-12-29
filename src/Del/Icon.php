@@ -27,6 +27,14 @@ class Icon
     const CHECK = '<i class="fa fa-check"></i>';
     const CHECK_CIRCLE = '<i class="fa fa-check-circle"></i>';
     const CHECK_SQUARE = '<i class="fa fa-check-square"></i>';
+    const CHEVERON_LEFT = '<i class="fa fa-cheveron-left"></i>';
+    const CHEVERON_RIGHT = '<i class="fa fa-cheveron-right"></i>';
+    const CHEVERON_UP = '<i class="fa fa-cheveron-up"></i>';
+    const CHEVERON_DOWN = '<i class="fa fa-cheveron-down"></i>';
+    const CHEVERON_CIRCLE_LEFT = '<i class="fa fa-cheveron-circle-left"></i>';
+    const CHEVERON_CIRCLE_RIGHT = '<i class="fa fa-cheveron-circle-right"></i>';
+    const CHEVERON_CIRCLE_UP = '<i class="fa fa-cheveron-circle-up"></i>';
+    const CHEVERON_CIRCLE_DOWN = '<i class="fa fa-cheveron-circle-down"></i>';
     const CIRCLE = '<i class="fa fa-circle-o"></i>';
     const CLOCK = '<i class="fa fa-clock-o"></i>';
     const CLOUD_DOWNLOAD = '<i class="fa fa-cloud-download"></i>';
