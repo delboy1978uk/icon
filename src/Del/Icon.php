@@ -1,6 +1,7 @@
 <?php
 
 namespace Del;
+use ReflectionClass;
 
 class Icon
 {
@@ -125,4 +126,10 @@ class Icon
     {
         return '<link type="text/css" rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">';
     }
+
+    public static function toArray()
+   {
+        $mirror = new ReflectionClass(__CLASS__);
+        return $mirror->getConstants();
+   }
 }
