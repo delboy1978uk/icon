@@ -59,6 +59,7 @@ class Icon
     const ENVELOPE_O = '<i class="fa fa-envelope-o"></i>';
     const EXCLAMATION_CIRCLE = '<i class="fa fa-exclamation-circle"></i>';
     const EXPAND = '<i class="fa fa-expand"></i>';
+    const EXTERNAL_LINK = '<i class="fa fa-external-link"></i>';
     const FACEBOOK = '<i class="fa fa-facebook"></i>';
     const FILE = '<i class="fa fa-file-text-o"></i>';
     const FIRE = '<i class="fa fa-fire"></i>';
