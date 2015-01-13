@@ -63,6 +63,7 @@ class Icon
     const EXTERNAL_LINK = '<i class="fa fa-external-link"></i>';
     const FACEBOOK = '<i class="fa fa-facebook"></i>';
     const FILE = '<i class="fa fa-file-text-o"></i>';
+    const FILTER = '<i class="fa fa-filter"></i>';
     const FIRE = '<i class="fa fa-fire"></i>';
     const FLAG_CHECKERED = '<i class="fa fa-flag-checkered"></i>';
     const FLOPPY = '<i class="fa fa-floppy-o"></i>';
