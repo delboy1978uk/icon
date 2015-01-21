@@ -117,6 +117,7 @@ class Icon
     const WIFI = '<i class="fa fa-wifi"></i>';
     const WRENCH = '<i class="fa fa-wrench"></i>';
     const YOUTUBE = '<i class="fa fa-youtube"></i>';
+    const YOUTUBE_PLAY = '<i class="fa fa-youtube-play"></i>';
      
     public static function custom($icon, $extra_classes, $with_space = false)
     {
