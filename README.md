@@ -1,7 +1,7 @@
 icon
 ====
 
-PHP Class for generating Font Awesome icons.
+PHP Class for generating Font Awesome icons. (now using v4.3.0!)
 
 How to use
 ----------
@@ -14,7 +14,7 @@ Make sure you are using FontAwesome. Stick this in your `<head>` section:<br />
 <?= Icon::fontAwesomeHeadCssLink(); ?>
 ```
 That will generate the CSS <link> tag:<br />
-`<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">`
+`<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">`
 
 Simplest use
 ```
