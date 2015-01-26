@@ -101,6 +101,7 @@ class Icon
     const SIGN_IN = '<i class="fa fa-sign-in"></i>';
     const SIGN_OUT = '<i class="fa fa-sign-out"></i>';
     const SPINNER = '<i class="fa fa-spinner fa-spin"></i>';
+    const STACK_OVERFLOW = '<i class="fa fa-stack-overflow"></i>';
     const TACHOMETER = '<i class="fa fa-tachometer"></i>';
     const THUMBS_DOWN = '<i class="fa fa-thumbs-down"></i>';
     const THUMBS_UP = '<i class="fa fa-thumbs-up"></i>';
@@ -117,6 +118,7 @@ class Icon
     const WIFI = '<i class="fa fa-wifi"></i>';
     const WRENCH = '<i class="fa fa-wrench"></i>';
     const YOUTUBE = '<i class="fa fa-youtube"></i>';
+    const YOUTUBE_PLAY = '<i class="fa fa-youtube-play"></i>';
      
     public static function custom($icon, $extra_classes, $with_space = false)
     {
