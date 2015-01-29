@@ -77,6 +77,7 @@ class Icon
     const LIGHTBULB = '<i class="fa fa-lightbulb-o"></i>';
     const LINE_CHART = '<i class="fa fa-line-chart"></i>';
     const LINKEDIN = '<i class="fa fa-linkedin"></i>';
+    const LIST = '<i class="fa fa-list"></i>';
     const MAP_MARKER = '<i class="fa fa-map-marker"></i>';
     const MEH = '<i class="fa fa-meh-o"></i>';
     const MONEY = '<i class="fa fa-money"></i>';
