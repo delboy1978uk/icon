@@ -73,6 +73,7 @@ class Icon
     const GLOBE = '<i class="fa fa-globe"></i>';
     const GOOGLE_PLUS = '<i class="fa fa-google-plus"></i>';
     const HOME = '<i class="fa fa-home"></i>';
+    const INBOX = '<i class="fa fa-inbox"></i>';
     const INFO = '<i class="fa fa-info"></i>';
     const INFO_CIRCLE = '<i class="fa fa-info-circle"></i>';
     const LIGHTBULB = '<i class="fa fa-lightbulb-o"></i>';
