@@ -40,6 +40,7 @@ class Icon
     const CLOCK = '<i class="fa fa-clock-o"></i>';
     const CLOUD_DOWNLOAD = '<i class="fa fa-cloud-download"></i>';
     const CLOUD_UPLOAD = '<i class="fa fa-cloud-upload"></i>';
+    const CODE_FORK = '<i class="fa fa-code-fork"></i>';
     const COMMENT = '<i class="fa fa-comment"></i>';
     const COMMENT_O = '<i class="fa fa-comment-o"></i>';
     const COMMENTS = '<i class="fa fa-comments"></i>';
