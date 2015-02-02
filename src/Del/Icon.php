@@ -115,6 +115,7 @@ class Icon
     const UP = '<i class="fa fa-caret-up"></i>';
     const USER = '<i class="fa fa-user"></i>';
     const USERS = '<i class="fa fa-users"></i>';
+    const VIDEO = '<i class="fa fa-video"></i>';
     const VISA = '<i class="fa fa-cc-visa"></i>';
     const WARNING = '<i class="fa fa-warning"></i>';
     const WHEELCHAIR = '<i class="fa fa-wheelchair"></i>';
