@@ -163,7 +163,7 @@ class Icon
     const DASHCUBE = '<i class="fa fa-dashcube"></i>';
     const DATABASE = '<i class="fa fa-database"></i>';
     const DEDENT = '<i class="fa fa-dedent"></i>';
-    const DELETE = '<i class="fa fa-delete"></i>';
+    const DELETE = '<i class="fa fa-times"></i>';
     const DELICIOUS = '<i class="fa fa-delicious"></i>';
     const DESKTOP = '<i class="fa fa-desktop"></i>';
     const DEVIANTART = '<i class="fa fa-deviantart"></i>';
