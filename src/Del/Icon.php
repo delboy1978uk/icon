@@ -1,6 +1,7 @@
 <?php
 
 namespace Del;
+
 use ReflectionClass;
 
 class Icon
@@ -600,22 +601,41 @@ class Icon
     const YELP = '<i class="fa fa-yelp"></i>';
     const YEN = '<i class="fa fa-yen"></i>';
     const YOUTUBE = '<i class="fa fa-youtube"></i>';
-    const YOUTUBE_PLAY = '<i class="fa fa-youtube-play"></i>';    
-     
-    public static function custom($icon, $extra_classes, $with_space = false)
+    const YOUTUBE_PLAY = '<i class="fa fa-youtube-play"></i>';
+
+    /**
+     * @param $icon
+     * @param $extra_classes
+     * @param bool $with_space
+     * @return string|string[]
+     */
+    public static function custom($icon, $extra_classes = '', $with_space = false)
     {
+        if (!strstr($icon, '<i class="fa')) {
+            $icon = '<i class="fa ' . $icon  . '"></i>';
+        }
+
         $icon = str_replace('">', ' '.$extra_classes.'">', $icon);
-        return ($with_space) ? $icon.'&nbsp;' : $icon;
+
+        return ($with_space) ? $icon . '&nbsp;' : $icon;
     }
 
+    /**
+     * @param string $version
+     * @return string
+     */
     public static function fontAwesomeHeadCssLink($version = '4.3.0')
     {
         return '<link type="text/css" rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/' . $version . '/css/font-awesome.css">';
     }
 
+    /**
+     * @return array
+     * @throws \ReflectionException
+     */
     public static function toArray()
-   {
+    {
         $mirror = new ReflectionClass(__CLASS__);
         return $mirror->getConstants();
-   }
+    }
 }
