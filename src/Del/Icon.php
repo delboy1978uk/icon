@@ -608,9 +608,9 @@ class Icon
         return ($with_space) ? $icon.'&nbsp;' : $icon;
     }
 
-    public static function fontAwesomeHeadCssLink()
+    public static function fontAwesomeHeadCssLink($version = '4.3.0')
     {
-        return '<link type="text/css" rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css">';
+        return '<link type="text/css" rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/' . $version . '/css/font-awesome.css">';
     }
 
     public static function toArray()
