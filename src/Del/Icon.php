@@ -628,13 +628,13 @@ class Icon
     {
         switch ($version) {
             case '4.7.1':
-                $link = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+                $link = '//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
                 break;
             default:
-                $link = '<link type="text/css" rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/' . $version . '/css/font-awesome.css">';
+                $link = '//netdna.bootstrapcdn.com/font-awesome/' . $version . '/css/font-awesome.css';
         }
-        
-        return $link;
+
+        return '<link type="text/css" rel="stylesheet" media="screen" href="' . $link . '">';
     }
 
     /**
