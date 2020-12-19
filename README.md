@@ -13,6 +13,10 @@ Make sure you are using FontAwesome. Stick this in your `<head>` section:<br />
 ```
 <?= Icon::fontAwesomeHeadCssLink(); ?>
 ```
+Or you can pass in the version number
+```
+<?= Icon::fontAwesomeHeadCssLink('4.7.1'); ?>
+```
 That will generate the CSS <link> tag:<br />
 `<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">`
 
